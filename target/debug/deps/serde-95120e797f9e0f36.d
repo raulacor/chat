@@ -1,0 +1,14 @@
+/Users/raulcorsi/Coding/repos/chat-rust/chat/target/debug/deps/serde-95120e797f9e0f36.d: /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/raulcorsi/Coding/repos/chat-rust/chat/target/debug/build/serde-eeb73fbee7f26d90/out/private.rs
+
+/Users/raulcorsi/Coding/repos/chat-rust/chat/target/debug/deps/libserde-95120e797f9e0f36.rlib: /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/raulcorsi/Coding/repos/chat-rust/chat/target/debug/build/serde-eeb73fbee7f26d90/out/private.rs
+
+/Users/raulcorsi/Coding/repos/chat-rust/chat/target/debug/deps/libserde-95120e797f9e0f36.rmeta: /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/raulcorsi/Coding/repos/chat-rust/chat/target/debug/build/serde-eeb73fbee7f26d90/out/private.rs
+
+/Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/raulcorsi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/raulcorsi/Coding/repos/chat-rust/chat/target/debug/build/serde-eeb73fbee7f26d90/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/raulcorsi/Coding/repos/chat-rust/chat/target/debug/build/serde-eeb73fbee7f26d90/out
