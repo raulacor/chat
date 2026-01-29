@@ -1,0 +1,1 @@
+/Users/raulcorsi/Coding/repos/chat-rust/chat/target/debug/server: /Users/raulcorsi/Coding/repos/chat-rust/chat/src/bin/server/main.rs /Users/raulcorsi/Coding/repos/chat-rust/chat/src/lib.rs /Users/raulcorsi/Coding/repos/chat-rust/chat/src/utils.rs

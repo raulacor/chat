@@ -9,7 +9,7 @@ use std::marker::Unpin;
 pub type ChatError = Box<dyn Error + Send + Sync + 'static>;
 pub type ChatResult<T> = Result<T, ChatError>;
 
-pub async fn send_json<O, P>(leaving: &mut O, packet: &mut P) -> ChatResult<()>
+pub async fn send_json<O, P>(leaving: &mut O, packet: &P) -> ChatResult<()>
 where
     O: async_std::io::Write + Unpin,
     P: Serialize,
