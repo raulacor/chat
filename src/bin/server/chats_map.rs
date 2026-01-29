@@ -1,9 +1,9 @@
+use crate::chats::Chats;
+
 use std::collections::HashMap;
 use std::sync::{Arc, Mutex};
 
-use crate::chats::Chats;
-
-pub struct ChatsTracker(Mutex<HashMap<Arc<String>, Arc<Chats>>>);
+pub struct ChatTracker(Mutex<HashMap<Arc<String>, Arc<Chats>>>);
 
 impl ChatTracker {
     pub fn new() -> ChatTracker {

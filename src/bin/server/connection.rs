@@ -13,10 +13,10 @@ impl Leaving {
         Leaving(Mutex::new(client))
     }
 
-    pub async fn send(&self, packet: Server) -> ChatResult {
+    pub async fn send(&self, packet: Server) -> ChatResult<()> {
         let mut lock = self.0.lock().await;
 
-        ultils::send_json(&mut *lock, &packet).await?;
+        utils::send_json(&mut *lock, &packet).await?;
         lock.flush().await?;
         Ok(())
     }
@@ -33,11 +33,11 @@ pub async fn handle(socket: TcpStream, chats: Arc<ChatTracker>) -> ChatResult<()
         let request = req_res?;
         let result = match request {
             Client::Join { chat_name } => {
-                let chat = chat.find_or_new(chat_name);
+                let chat = chats.find_or_new(chat_name);
                 chat.join(leaving.clone());
                 Ok(())
             }
-            Clien::Post { chat_name, message } => match chats.find(&chat_name) {
+            Client::Post { chat_name, message } => match chats.find(&chat_name) {
                 Some(chat) => {
                     chat.post(message);
                     Ok(())
