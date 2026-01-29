@@ -1,3 +1,4 @@
+#[allow(unused_imports)]
 use async_std::io::BufReader;
 use async_std::net::TcpStream;
 use async_std::prelude::*;
